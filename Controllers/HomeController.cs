@@ -26,5 +26,11 @@ namespace WebApplicationexercise.Controllers
 
             return View();
         }
+        public ActionResult Emps()
+        {
+            ViewBag.Message = "Your Emps Page";
+
+            return View();
+        }
     }
 }
